@@ -16,6 +16,7 @@ public class MyFilter extends ZuulFilter {
 	
 	@Override
 	public Object run() {
+		/*
 		RequestContext ctx = RequestContext.getCurrentContext();
         HttpServletRequest request = ctx.getRequest();
         log.info(String.format("%s >>> %s", request.getMethod(), request.getRequestURL().toString()));
@@ -31,6 +32,7 @@ public class MyFilter extends ZuulFilter {
             return null;
         }
         log.info("ok");
+        */
         return null;
 	}
 
