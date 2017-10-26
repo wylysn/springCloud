@@ -1,7 +1,7 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/  #配置文件中注明自己的服务注册中心的地址
+      defaultZone: http://peer1:8761/eureka/  #配置文件中注明自己的服务注册中心的地址
 server:
   port: 8762
 spring:
