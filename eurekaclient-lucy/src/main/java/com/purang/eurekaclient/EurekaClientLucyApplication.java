@@ -17,11 +17,11 @@ import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 @RestController
 @EnableHystrix
 @EnableHystrixDashboard
-public class EurekaClientApplication 
+public class EurekaClientLucyApplication 
 {
     public static void main( String[] args )
     {
-        SpringApplication.run(EurekaClientApplication.class, args);
+        SpringApplication.run(EurekaClientLucyApplication.class, args);
     }
     
     @Value("${server.port}")

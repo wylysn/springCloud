@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.purang</groupId>
-  <artifactId>eurekaclient</artifactId>
+  <artifactId>eurekaclient-lucy</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>eurekaclient</name>
+  <name>eurekaclient-lucy</name>
   <url>http://maven.apache.org</url>
 
   <properties>
